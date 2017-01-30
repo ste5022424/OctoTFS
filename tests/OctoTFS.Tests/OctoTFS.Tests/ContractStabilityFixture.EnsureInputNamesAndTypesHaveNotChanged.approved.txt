@@ -2,12 +2,12 @@
 	'OctoConnectedServiceName': connectedService:OctopusEndpoint
 	'ProjectName': pickList
 	'ReleaseNumber': string
-	'Channel': pickList
+	'Channel': string
 	'ChangesetCommentReleaseNotes': boolean
 	'WorkItemReleaseNotes': boolean
 	'CustomReleaseNotes': string
 	'DeployToEnvironment': pickList
-	'DeployForTenants': string
+	'DeployForTenants': pickList
 	'DeployForTenantTags': string
 	'DeploymentProgress': boolean
 	'AdditionalArguments': string
