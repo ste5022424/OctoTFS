@@ -7,7 +7,7 @@
 	'WorkItemReleaseNotes': boolean
 	'CustomReleaseNotes': string
 	'DeployToEnvironment': pickList
-	'DeployForTenants': pickList
+	'DeployForTenants': string
 	'DeployForTenantTags': string
 	'DeploymentProgress': boolean
 	'AdditionalArguments': string
