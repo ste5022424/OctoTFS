@@ -113,20 +113,17 @@
         {
             "target": "Project",
             "endpointId": "$(OctoConnectedServiceName)",
-            "dataSourceName": "OctopusAllProjects",
-            "resultTemplate": "{\"Value\":\"{{{Name}}}\",\"DisplayValue\":\"{{{Name}}}\"}"
+            "dataSourceName": "OctopusAllProjects"
         },
         {
             "target": "Environments",
             "endpointId": "$(OctoConnectedServiceName)",
-            "dataSourceName": "OctopusAllEnvironments",
-            "resultTemplate": "{\"Value\":\"{{{Name}}}\",\"DisplayValue\":\"{{{Name}}}\"}"
+            "dataSourceName": "OctopusAllEnvironments"
         },
         {
             "target": "DeployForTenants",
             "endpointId": "$(OctoConnectedServiceName)",
-            "dataSourceName": "OctopusAllTenants",
-            "resultTemplate": "{\"Value\":\"{{{Name}}}\",\"DisplayValue\":\"{{{Name}}}\"}"
+            "dataSourceName": "OctopusAllTenants"
         }
     ],
     "instanceNameFormat": "Deploy Octopus Release: $(Project) to $(Environments)",

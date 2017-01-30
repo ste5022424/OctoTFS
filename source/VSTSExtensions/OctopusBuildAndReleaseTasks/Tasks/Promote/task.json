@@ -116,26 +116,22 @@
         {
             "target": "Project",
             "endpointId": "$(OctoConnectedServiceName)",
-            "dataSourceName": "OctopusAllProjects",
-            "resultTemplate": "{\"Value\":\"{{{Name}}}\",\"DisplayValue\":\"{{{Name}}}\"}"
+            "dataSourceName": "OctopusAllProjects"
         },
         {
             "target": "From",
             "endpointId": "$(OctoConnectedServiceName)",
-            "dataSourceName": "OctopusAllEnvironments",
-            "resultTemplate": "{\"Value\":\"{{{Name}}}\",\"DisplayValue\":\"{{{Name}}}\"}"
+            "dataSourceName": "OctopusAllEnvironments"
         },
         {
             "target": "To",
             "endpointId": "$(OctoConnectedServiceName)",
-            "dataSourceName": "OctopusAllEnvironments",
-            "resultTemplate": "{\"Value\":\"{{{Name}}}\",\"DisplayValue\":\"{{{Name}}}\"}"
+            "dataSourceName": "OctopusAllEnvironments"
         },
         {
             "target": "DeployForTenants",
             "endpointId": "$(OctoConnectedServiceName)",
-            "dataSourceName": "OctopusAllTenants",
-            "resultTemplate": "{\"Value\":\"{{{Name}}}\",\"DisplayValue\":\"{{{Name}}}\"}"
+            "dataSourceName": "OctopusAllTenants"
         }
     ],
     "instanceNameFormat": "Promote $(Project) from $(From) to $(To)",
