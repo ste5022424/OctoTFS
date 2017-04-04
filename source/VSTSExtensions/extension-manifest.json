@@ -6,7 +6,8 @@
     "publisher": "octopusdeploy",
     "targets": [
         {
-            "id": "Microsoft.VisualStudio.Services"
+            "id": "Microsoft.TeamFoundation.Server",
+            "version": "[14.2,15.0]"
         }
     ],
     "description": "Build and Release tasks and additional features for integrating with Octopus Deploy",
