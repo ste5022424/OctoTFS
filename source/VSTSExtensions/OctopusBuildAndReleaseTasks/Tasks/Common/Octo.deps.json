@@ -6,9 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Octo/4.36.2": {
+      "Octo/4.36.3": {
         "dependencies": {
-          "Octopus.Cli": "4.36.2"
+          "Octopus.Cli": "4.36.3"
         },
         "runtime": {
           "Octo.dll": {}
@@ -1091,7 +1091,7 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
-      "Octopus.Cli/4.36.2": {
+      "Octopus.Cli/4.36.3": {
         "dependencies": {
           "Autofac": "4.6.0",
           "Newtonsoft.Json": "9.0.1",
@@ -1101,7 +1101,7 @@
           "NuGet.Packaging.Core": "3.6.0-octopus-58679",
           "NuGet.Packaging.Core.Types": "3.6.0-octopus-58679",
           "NuGet.Versioning": "3.6.0-octopus-58679",
-          "Octopus.Client": "4.36.2",
+          "Octopus.Client": "4.36.3",
           "Octostache": "2.0.4",
           "Serilog": "2.3.0",
           "Serilog.Sinks.ColoredConsole": "2.0.0",
@@ -1112,7 +1112,7 @@
           "Octopus.Cli.dll": {}
         }
       },
-      "Octopus.Client/4.36.2": {
+      "Octopus.Client/4.36.3": {
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
           "System.ComponentModel.Annotations": "4.3.0",
@@ -1133,7 +1133,7 @@
     }
   },
   "libraries": {
-    "Octo/4.36.2": {
+    "Octo/4.36.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1803,12 +1803,12 @@
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
-    "Octopus.Cli/4.36.2": {
+    "Octopus.Cli/4.36.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Octopus.Client/4.36.2": {
+    "Octopus.Client/4.36.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
