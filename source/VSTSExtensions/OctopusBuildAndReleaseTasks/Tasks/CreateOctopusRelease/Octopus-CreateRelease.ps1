@@ -188,7 +188,6 @@ try {
 
     # Call Octo.exe
 	$octoPath = Get-OctoExePath
-	Get-VstsTool
     Invoke-VstsTool -FileName "dotnet" -Arguments "`"$octoPath`" create-release --project=`"$ProjectName`" --releaseNumber=`"$ReleaseNumber`" --channel=`"$Channel`" --server=$octopusUrl $credentialParams --enableServiceMessages $deployToParams $releaseNotesParam $AdditionalArguments" -RequireExitCodeZero
 
 } finally {
