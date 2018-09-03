@@ -77,7 +77,12 @@ export const argument = curry((name: string, value: string | null | undefined, t
 });
 
 export const argumentEnquote = curry((name: string, value: string | null | undefined, tool: ToolRunner) => {
-    return argument(name, `"${value}"`, tool);
+    /*
+        The TFS _argStringToArray() method treats quoted strings specially. A backslash
+        in a quoted string is treated as a way of escaping a quote. So we need to replace
+        any backslash with a double backslash when wrapping the string in quotes.
+     */
+    return argument(name, `"${value.replace(/\\/g, "\\\\")}"`, tool);
 });
 
 export const includeArguments = curry((value: string, tool: ToolRunner) => {
