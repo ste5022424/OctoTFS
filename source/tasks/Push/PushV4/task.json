@@ -1,5 +1,5 @@
 ﻿{
-    "id": "d05ad9a2-5d9e-4a1c-a887-14034334d6f2",
+    "id": "be87000a-27d4-46f2-b8ea-837c721abac5",
     "name": "OctopusPush",
     "friendlyName": "Push Package(s) to Octopus",
     "description": "Push your NuGet or Zip package to your Octopus Deploy Server",

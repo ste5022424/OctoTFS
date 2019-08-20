@@ -121,23 +121,43 @@
             }
         },
         {
-            "id": "octopus-create-release",
+            "id": "octopus-create-release-v4",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "tasks/CreateOctopusRelease"
+                "name": "tasks/CreateOctopusRelease/CreateOctopusReleaseV4"
             }
         },
         {
-            "id": "octopus-deploy",
+            "id": "octopus-create-release-v3",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "tasks/Deploy"
+                "name": "tasks/CreateOctopusRelease/CreateOctopusReleaseV3"
+            }
+        },
+        {
+            "id": "octopus-deploy-v4",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "tasks/Deploy/DeployV4"
+            }
+        },
+        {
+            "id": "octopus-deploy-v3",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "tasks/Deploy/DeployV3"
             }
         },
         {
@@ -151,13 +171,23 @@
             }
         },
         {
-            "id": "octopus-push",
+            "id": "octopus-push-v3",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "tasks/Push"
+                "name": "tasks/Push/PushV3"
+            }
+        },
+        {
+            "id": "octopus-push-v4",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "tasks/Push/PushV4"
             }
         },
         {
@@ -181,13 +211,23 @@
             }
         },
         {
-            "id": "octopus-promote",
+            "id": "octopus-promote-v3",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
             ],
             "properties": {
-                "name": "tasks/Promote"
+                "name": "tasks/Promote/PromoteV3"
+            }
+        },
+        {
+            "id": "octopus-promote-v4",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "tasks/Promote/PromoteV4"
             }
         },
         {
